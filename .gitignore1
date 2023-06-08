@@ -1,3 +1,5 @@
 # Ignore all .csv files 
 
+.github/**
+
 *.csv

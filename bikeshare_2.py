@@ -78,7 +78,7 @@ def get_filters():
         elif filter not in filters:
             print("Select from the given filters!")
 
-    print('-'*40)
+    print('-'*400)
     return city, month, day
 
 

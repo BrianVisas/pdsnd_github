@@ -36,6 +36,7 @@ def get_filters():
             print("You selected an incorrect city. Please select from the given list.")
 
     # get user input for month (all, january, february, ... , june)
+    #get further and specific inputs 
     while True:
         filter = input("How would you like to filer the data?\nFor daily type 'day', for monthly type 'month', and to apply no filters type 'none'. \n").lower()
         # none in filters means that the user wants stats of the whole dataset
